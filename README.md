@@ -18,7 +18,7 @@
 
 ## [Vernier](https://github.com/KaiZeHuang/vernier)
 
-一个在设备本机运行的 Android 环境完整性检测应用。17 个探测器覆盖引导状态、root 与 SU 痕迹、运行时注入、挂载命名空间、系统属性、可疑应用、KeyStore 与 attestation 一致性，以及虚拟化迹象。
+一个在设备本机运行的 Android 环境完整性检测应用。18 个探测器覆盖引导状态、root 与 SU 痕迹、运行时注入、挂载命名空间、系统属性、可疑应用、KeyStore 与 attestation 一致性，以及虚拟化迹象。
 
 An on-device Android environment integrity inspector. Seventeen detectors cover boot state, root and SU artifacts, runtime injection, mount namespace anomalies, modified system properties, suspicious applications, KeyStore and attestation consistency, and signs of virtualization.
 
@@ -26,7 +26,7 @@ An on-device Android environment integrity inspector. Seventeen detectors cover 
 | :--- | :--- |
 | **Stack** | Kotlin · Jetpack Compose · C++ / assembly (JNI) · Gradle KTS |
 | **Shape** | `core` / `capability` / `sdk` / `feature` / `app` — 多模块，边界由 CI 强制 |
-| **Detectors** | 17 个，每个自带 domain / data / presentation / detector / ui 五层 |
+| **Detectors** | 18 个，每个自带 domain / data / presentation / detector / ui 五层 |
 | **SDK** | 同一套探测器同时以无 UI 的 AAR 发布，可嵌入其他应用 |
 | **Platform** | minSdk 29 · targetSdk 37 · arm64-v8a / armeabi-v7a / x86 / x86_64 |
 
